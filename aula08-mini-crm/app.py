@@ -14,8 +14,13 @@ def add_lead():
     #para salvar, vamos usar o modulo control
     control.create_lead(model_lead(name, email, company, step))
 def list_leads():
-    print("\nListar leads")
-
+    leads = control.read_leads()
+    if not leads:
+        print("Nenhum lead encontrado.")
+        return
+    print("\nLista de leads:")
+    for lead in leads:
+        print(f"\n Nome: {lead['nome']},\n Email: {lead['email']},\n Empresa: {lead['company']},\n Etapa: {lead['step']},\n Criado em: {lead['created']}")
 
 def main():
     while True:

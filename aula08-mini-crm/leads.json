@@ -1,0 +1,16 @@
+[
+  {
+    "nome": "João",
+    "email": "joao@example.com",
+    "company": "Empresa A",
+    "step": "novo",
+    "created": "2026-09-10"
+  },
+  {
+    "nome": "kucas",
+    "email": "s\\",
+    "company": "s",
+    "step": "novo",
+    "created": "2026-09-10"
+  }
+]

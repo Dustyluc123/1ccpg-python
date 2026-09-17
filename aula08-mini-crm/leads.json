@@ -12,5 +12,12 @@
     "company": "s",
     "step": "novo",
     "created": "2026-09-10"
+  },
+  {
+    "nome": "lucas",
+    "email": "lu@gmail.com",
+    "company": "vivo",
+    "step": "novo",
+    "created": "2026-09-17"
   }
 ]
